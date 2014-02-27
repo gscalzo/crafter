@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/krzysztofzablocki/crafter'
   gem.license = 'MIT'
 
-  gem.add_dependency 'xcodeproj', '~> 0.5.5'
+  gem.add_dependency 'xcodeproj', '> 0.5.5'
   gem.add_dependency 'highline', '~> 1.6'
 
   gem.files         = `git ls-files`.split($/)
